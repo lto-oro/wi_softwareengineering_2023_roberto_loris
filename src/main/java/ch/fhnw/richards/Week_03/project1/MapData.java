@@ -26,10 +26,11 @@ public class MapData {
         this(null, null);
     }
 
-    //Bradley bitte Pfad zu den Nodes und Edges ersetzten
-
+    // WICHTIG: Bradley bitte die Variable basedir mit Pfad zum Ordner Nodes_Edges anpassen.
+    //  Note: Nodes_Edges = Ordner
+    //          In Ordner Nodes_Edges müssen die Dateien Edges.csv und Nodes.csv sein!!
     public MapData(String nodeFile, String edgeFile) throws IOException {
-        String baseDir = "/Users/roberto.panizza/Github/FHNW/Nodes_Edges";
+        String baseDir = "/Users/loristrifoglio/Documents/Nodes_Edges"; 
 
         this.nodeFile = (nodeFile == null || nodeFile.isBlank())
                 ? Path.of(baseDir, "Nodes.csv").toString()

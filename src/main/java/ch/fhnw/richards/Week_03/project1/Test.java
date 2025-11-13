@@ -20,8 +20,8 @@ public class Test {
         System.out.println("=========================");
 
         // Start und ende wählen
-        String start = "Rothrist/Neue Aarburgerstrasse/2";
-        String goal  = "Aarau/Allmendweg/1";
+        String start = "Oensingen/A1/1"; // TRL: "Rothrist/Neue Aarburgerstrasse/2";
+        String goal  = "Riedholz/Baselstrasse/1"; //Teo: "Olten/Im Kleinholz/1"; //"Aarau/Allmendweg/1";
 
         // Depth-First Suche
         long depthStart = System.nanoTime();
